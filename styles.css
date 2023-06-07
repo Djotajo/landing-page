@@ -1,32 +1,98 @@
 .header {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex-direction: column;
-    
+    padding-top: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+    background-color: #1F2937;
+    gap: 30px;
+}
+
+body {
+    margin: 0px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+    font-weight: bold;
 }
 
 .headerline {
     display: flex;
-    gap: 100px;
+    align-items: center;
+    gap: 200px;
+    
 }
+
+
+
+.headerlinks{
+        display: flex;
+    list-style: none;
+    margin: 0px;
+    gap: 10px;
+    margin-left: auto;
+}
+
+
 
 .headerline ul {
     display: flex;
     list-style: none;
     margin: 0px;
-    gap: 15px;
+    gap: 10px;
 }
 
 .headerline a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 .headerline p {
     margin: 0px;
 }
 
+.headercontent {
+    display: flex;
+    gap: 10px;
+    flex: 0 1 auto;
+}
+
 .headerleft {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.headerright {
+    flex: 1;
+    width: 500px;
+    height: 250px;
+    background-color: aquamarine;
+}
+
+#awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+#herosecondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.buttons {
+    height: auto;   
+    padding: 8px 20px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
 }
