@@ -166,3 +166,45 @@ body {
     margin-left: auto;
     font-weight: bold;
 }
+
+.call {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    display: flex;
+    padding: 50px;
+}
+
+.callcontent {
+    background-color: #3882F6;
+    display: flex;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 100px;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    font-size: 18px;
+}
+
+.callbutton {
+    height: auto;   
+    padding: 8px 20px;
+    background-color: #3882F6;
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.callhead {
+    font-size: 24px;
+    font-weight: bold;
+}
