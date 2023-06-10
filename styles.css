@@ -176,10 +176,10 @@ body {
     align-items: center;
 }
 
-.call {
+/* .call {
     display: flex;
     padding: 50px;
-}
+} */
 
 .callcontent {
     background-color: #3882F6;
@@ -191,6 +191,7 @@ body {
     color: white;
     align-items: center;
     font-size: 18px;
+    width: 60%;
 }
 
 .callbutton {
@@ -208,4 +209,14 @@ body {
 .callhead {
     font-size: 24px;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
